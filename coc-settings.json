@@ -1,0 +1,27 @@
+{
+  "suggest.noselect": false,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "javascript",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "javascriptreact",
+    "typescript.tsx",
+    "scss",
+    "css",
+    "markdown",
+    "html"
+  ],
+  "snippets.ultisnips.directories": [
+    "UltiSnips",
+    "~/.config/nvim/utils/snips"
+  ],
+  "emmet.showExpandedAbbreviation": "always",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "prettier.eslintIntegration": true,
+  "prettier.tslintIntegration": true,
+  "coc.preferences.jumpCommand": "edit"
+}
+

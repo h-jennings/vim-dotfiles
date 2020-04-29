@@ -17,6 +17,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'alvan/vim-closetag'
 Plug 'arcticicestudio/nord-vim'
 Plug 'joshdick/onedark.vim'
+Plug 'kaicataldo/material.vim'
 Plug 'mhartington/oceanic-next'
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
 Plug 'vim-airline/vim-airline'

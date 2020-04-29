@@ -26,10 +26,11 @@ nmap <leader>B :TagbarToggle<CR>
 nmap <leader>b :NERDTreeToggle<CR>
 nmap <leader>F :NERDTreeFind<CR>
 " Use alt + hjkl to resize windows
-nnoremap <A-j> :res -2<CR>
-nnoremap <A-k> :res +2<CR>
-nnoremap <A-h> :vertical resize -2<CR>
-nnoremap <A-l> :vertical resize +2<CR>
+nnoremap <silent> <C-Right> :vertical resize -3<CR>
+nnoremap <silent> <C-Left> :vertical resize +3<CR>
+nnoremap <silent> <C-Down> :res -3<CR>
+nnoremap <silent> <C-Up> :res +3<CR>
+map <leader>nt :vnew term<CR>
 
 " Terminal
 tnoremap <ESC> <C-\><C-n>

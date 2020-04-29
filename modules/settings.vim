@@ -44,8 +44,9 @@ set signcolumn=yes
 
 " Theme
 syntax enable
-set cursorline
-colorscheme onehalfdark
+colorscheme material
+let g:material_theme_style='palenight'
+let g:material_terminal_italics=1
 
 set colorcolumn=80
 

@@ -20,8 +20,6 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "prettier.eslintIntegration": true,
-  "prettier.tslintIntegration": true,
   "coc.preferences.jumpCommand": "edit"
 }
 

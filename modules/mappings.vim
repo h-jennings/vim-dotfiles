@@ -30,7 +30,7 @@ nnoremap <silent> <C-Right> :vertical resize -3<CR>
 nnoremap <silent> <C-Left> :vertical resize +3<CR>
 nnoremap <silent> <C-Down> :res -3<CR>
 nnoremap <silent> <C-Up> :res +3<CR>
-map <leader>nt :vnew term<CR>
+map <leader>nt :vnew term://zsh<CR>
 
 " Terminal
 tnoremap <ESC> <C-\><C-n>

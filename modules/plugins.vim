@@ -19,6 +19,7 @@ Plug 'arcticicestudio/nord-vim'
 Plug 'joshdick/onedark.vim'
 Plug 'kaicataldo/material.vim'
 Plug 'mhartington/oceanic-next'
+Plug 'jiangmiao/auto-pairs'
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'

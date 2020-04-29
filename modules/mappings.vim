@@ -6,7 +6,22 @@ nnoremap <SPACE> <Nop>
 map <SPACE> <leader>
 
 "Normal Mode
-nnoremap <leader>r <C-r>
+
+" Find and replace mappings
+" Press * to search for the term under the cursor or a visual selection and
+" then press a key below to replace all instances of it in the current file.
+nnoremap <leader>r :%s///g<Left><Left>
+nnoremap <leader>rc :%s///gc<Left><Left><Left>
+
+" Same as above but only on the visual selection
+noremap <leader>r :%s///g<Left><Left>
+xnoremap <leader>rc :%s///gc<Left><Left><Left>
+
+" Type a replacement term and press . to repeat the replacement again. Useful
+" for replacing a few instances of the term (comparable to multiple cursors)
+nnoremap <silent> s* :let @/='\<'.expand('<cword>').'\>'<CR>cgn
+xnoremap <silent> s* "sy:let @/=@s<CR>cgn
+
 nnoremap J 5j
 nnoremap K 5k
 nnoremap <leader>tt :tabnew<CR>

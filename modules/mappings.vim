@@ -28,8 +28,10 @@ nnoremap <leader>tt :tabnew<CR>
 nnoremap <leader>] :tabnext<CR>
 nnoremap <leader>[ :tabprev<CR>
 nnoremap <leader>to :tabo<CR>
+nnoremap <leader>td :set background=dark<CR>
+nnoremap <leader>tl :set background=light<CR>
 nnoremap <leader>ff :Files<CR>
-nnoremap <leader>fw :Ag<CR>
+nnoremap <leader>fw :Rg<CR>
 nnoremap <C-b> :Buffers<CR>
 nnoremap <C-g> :BCommits<CR>
 nnoremap <leader>/ :nohlsearch<CR>

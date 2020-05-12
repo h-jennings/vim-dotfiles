@@ -20,6 +20,7 @@ Plug 'joshdick/onedark.vim'
 Plug 'kaicataldo/material.vim'
 Plug 'liuchengxu/space-vim-theme'
 Plug 'mhartington/oceanic-next'
+Plug 'jiangmiao/auto-pairs'
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'

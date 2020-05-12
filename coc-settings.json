@@ -21,8 +21,6 @@
     "javascript": "javascriptreact",
     "typescript": "html"
   },
-  "prettier.eslintIntegration": true,
-  "prettier.tslintIntegration": true,
   "coc.preferences.jumpCommand": "edit"
 }
 

@@ -18,6 +18,7 @@ Plug 'alvan/vim-closetag'
 Plug 'arcticicestudio/nord-vim'
 Plug 'joshdick/onedark.vim'
 Plug 'kaicataldo/material.vim'
+Plug 'liuchengxu/space-vim-theme'
 Plug 'mhartington/oceanic-next'
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
 Plug 'vim-airline/vim-airline'

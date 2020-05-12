@@ -18,7 +18,8 @@
   ],
   "emmet.showExpandedAbbreviation": "always",
   "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
+    "javascript": "javascriptreact",
+    "typescript": "html"
   },
   "prettier.eslintIntegration": true,
   "prettier.tslintIntegration": true,

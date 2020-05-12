@@ -15,6 +15,8 @@ nnoremap <leader>[ :tabprev<CR>
 nnoremap <leader>to :tabo<CR>
 nnoremap <leader>ff :Files<CR>
 nnoremap <leader>fw :Ag<CR>
+nnoremap <C-b> :Buffers<CR>
+nnoremap <C-b> :BCommits<CR>
 nnoremap <leader>/ :nohlsearch<CR>
 " Better window navigation
 nnoremap <C-h> <C-w>h

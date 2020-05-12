@@ -19,7 +19,6 @@ set title
 set encoding=UTF-8
 set autoindent
 set laststatus=0
-set background=dark
 set showtabline=2
 set clipboard=unnamedplus
 " TextEdit might fail if hidden is not set.
@@ -44,9 +43,10 @@ set signcolumn=yes
 
 " Theme
 syntax enable
-colorscheme material
-let g:material_theme_style='palenight'
-let g:material_terminal_italics=1
+set background=dark
+colorscheme space_vim_theme
+let g:space_vim_italic = 1
+let g:space_vim_filetype_hi_groups = 1
 
 set colorcolumn=80
 

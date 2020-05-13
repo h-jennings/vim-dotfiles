@@ -31,7 +31,8 @@ nnoremap <leader>to :tabo<CR>
 nnoremap <leader>td :set background=dark<CR>
 nnoremap <leader>tl :set background=light<CR>
 nnoremap <leader>ff :Files<CR>
-nnoremap <leader>fw :Rg<CR>
+nnoremap <leader>fw :Rg ''<CR>
+nnoremap <leader>few :Rg "" -w<left><left><left><left>
 nnoremap <C-b> :Buffers<CR>
 nnoremap <C-g> :BCommits<CR>
 nnoremap <leader>/ :nohlsearch<CR>

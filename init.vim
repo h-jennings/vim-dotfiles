@@ -14,6 +14,8 @@ source $HOME/.config/nvim/modules/settings.vim
 source $HOME/.config/nvim/modules/tagbar.vim
 " Airline
 source $HOME/.config/nvim/modules/airline.vim
+" Startify
+source $HOME/.config/nvim/modules/start-screen.vim
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 

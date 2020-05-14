@@ -70,3 +70,5 @@ nmap ++ <plug>NERDCommenterToggle
 " Better tabbing
 vnoremap < <gv
 vnoremap > >gv
+" search for visually selected text
+vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>

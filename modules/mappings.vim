@@ -43,6 +43,12 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 nnoremap <leader>w :w<CR>
 nnoremap <leader>q :q<CR>
+" Git status shortcut for fugitive
+nnoremap <leader>gs :G<CR>
+" Get the git diff on the right 
+nnoremap <leader>gj :diffget //3<CR>
+" Get the git diff on the left 
+nnoremap <leader>gf :diffget //2<CR>
 nmap <leader>B :TagbarToggle<CR>
 nmap <leader>b :NERDTreeToggle<CR>
 nmap <leader>F :NERDTreeFind<CR>

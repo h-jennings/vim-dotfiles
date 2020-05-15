@@ -46,6 +46,9 @@ syntax enable
 set background=dark
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 let g:gruvbox_italic=1
+let g:gruvbox_bold=1
+let g:gruvbox_underline=1
+let g:gruvbox_termcolors=256
 colorscheme gruvbox
 "colorscheme space_vim_theme
 "let g:space_vim_italic = 1

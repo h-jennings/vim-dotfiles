@@ -44,9 +44,12 @@ set signcolumn=yes
 " Theme
 syntax enable
 set background=dark
-colorscheme space_vim_theme
-let g:space_vim_italic = 1
-let g:space_vim_filetype_hi_groups = 1
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+let g:gruvbox_italic=1
+colorscheme gruvbox
+"colorscheme space_vim_theme
+"let g:space_vim_italic = 1
+"let g:space_vim_filetype_hi_groups = 1
 
 set colorcolumn=80
 

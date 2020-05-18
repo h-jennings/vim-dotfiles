@@ -24,6 +24,9 @@ xnoremap <silent> s* "sy:let @/=@s<CR>cgn
 
 nnoremap J 5j
 nnoremap K 5k
+" Remapping search to use 'very magic' by default
+nnoremap / /\v
+vnoremap / /\v
 nnoremap <leader>tt :tabnew<CR>
 nnoremap <leader>] :tabnext<CR>
 nnoremap <leader>[ :tabprev<CR>

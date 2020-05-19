@@ -34,8 +34,7 @@ nnoremap <leader>to :tabo<CR>
 nnoremap <leader>td :set background=dark<CR>
 nnoremap <leader>tl :set background=light<CR>
 nnoremap <leader>ff :Files<CR>
-nnoremap <leader>fw :Rg ''<CR>
-nnoremap <leader>few :Rg "" -w<left><left><left><left>
+nnoremap <leader>fw :Rg<CR>
 nnoremap <C-b> :Buffers<CR>
 nnoremap <C-g> :BCommits<CR>
 nnoremap <leader>/ :nohlsearch<CR>
@@ -67,9 +66,8 @@ tnoremap <ESC> <C-\><C-n>
 tnoremap <M-[> <Esc>
 tnoremap <C-v><Esc> <Esc>
 
-"Visual
-vmap ++ <plug>NERDCommenterToggle
-nmap ++ <plug>NERDCommenterToggle
+" Visual
+
 " Better tabbing
 vnoremap < <gv
 vnoremap > >gv

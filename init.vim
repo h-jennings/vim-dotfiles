@@ -10,8 +10,6 @@ source $HOME/.config/nvim/modules/fzf.vim
 source $HOME/.config/nvim/modules/mappings.vim
 " General vim stuff
 source $HOME/.config/nvim/modules/settings.vim
-" TagBar
-source $HOME/.config/nvim/modules/tagbar.vim
 " Airline
 source $HOME/.config/nvim/modules/airline.vim
 " Startify

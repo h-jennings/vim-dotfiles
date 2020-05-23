@@ -12,15 +12,11 @@
     "markdown",
     "html"
   ],
-  "snippets.ultisnips.directories": [
-    "UltiSnips",
-    "~/.config/nvim/utils/snips"
-  ],
+  "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/utils/snips"],
   "emmet.showExpandedAbbreviation": "always",
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "typescript": "html"
   },
-  "coc.preferences.jumpCommand": "edit"
+  "yank.highlight.duration": 200
 }
-

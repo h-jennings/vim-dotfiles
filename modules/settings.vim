@@ -34,6 +34,9 @@ set cmdheight=2
 set updatetime=300
 set timeoutlen=800
 
+" Default diff is set to vertical
+set diffopt+=vertical
+
 " Don't pass messages to |ins-completion-menu|.
 set shortmess+=c
 

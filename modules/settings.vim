@@ -44,24 +44,34 @@ set shortmess+=c
 " diagnostics appear/become resolved.
 set signcolumn=yes
 
+if exists('+termguicolors')
+  set termguicolors
+endif
+
 " Theme
 syntax on
 set background=dark
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-let g:gruvbox_italic=1
-let g:gruvbox_bold=1
-let g:gruvbox_underline=1
-let g:gruvbox_termcolors=256
-colorscheme gruvbox
+
+" Standard gruvbox
+" let g:gruvbox_italic=1
+" let g:gruvbox_bold=1
+" let g:gruvbox_underline=1
+" let g:gruvbox_termcolors=256
+" let g:airline_theme='gruvbox'
+" colorscheme gruvbox
+
+" Material gruvbox
+let g:gruvbox_material_background = 'hard'
+let g:airline_theme = 'gruvbox_material'
+let g:gruvbox_material_enable_bold = 1
+let g:gruvbox_material_enable_italic = 1
+let g:gruvbox_material_cursor = 'yellow'
+let g:gruvbox_material_palette = 'original'
+colorscheme gruvbox-material
+
 "colorscheme space_vim_theme
 "let g:space_vim_italic = 1
 "let g:space_vim_filetype_hi_groups = 1
 
 set colorcolumn=80
-
-if exists('+termguicolors')
-  let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
-  let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
-  set termguicolors
-endif
-

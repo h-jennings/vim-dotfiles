@@ -45,7 +45,7 @@ set shortmess+=c
 set signcolumn=yes
 
 " Theme
-syntax enable
+syntax on
 set background=dark
 let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 let g:gruvbox_italic=1

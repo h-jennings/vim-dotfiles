@@ -16,6 +16,8 @@ source $HOME/.config/nvim/modules/airline.vim
 source $HOME/.config/nvim/modules/start-screen.vim
 " GTFO
 source $HOME/.config/nvim/modules/vim-gtfo.vim
+" Inline Edit
+source $HOME/.config/nvim/modules/inline-edit.vim
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 

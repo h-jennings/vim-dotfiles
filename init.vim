@@ -10,6 +10,8 @@ source $HOME/.config/nvim/modules/fzf.vim
 source $HOME/.config/nvim/modules/mappings.vim
 " General vim stuff
 source $HOME/.config/nvim/modules/settings.vim
+" Themes
+source $HOME/.config/nvim/modules/themes.vim
 " Airline
 source $HOME/.config/nvim/modules/airline.vim
 " Startify
@@ -18,6 +20,8 @@ source $HOME/.config/nvim/modules/start-screen.vim
 source $HOME/.config/nvim/modules/vim-gtfo.vim
 " Inline Edit
 source $HOME/.config/nvim/modules/inline-edit.vim
+" Close tag
+source $HOME/.config/nvim/modules/close-tag.vim
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 

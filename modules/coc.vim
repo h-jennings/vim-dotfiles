@@ -111,5 +111,6 @@ let g:coc_global_extensions = [
       \'coc-tsserver',
       \'coc-svg',
       \'coc-css',
-      \'coc-angular'
+      \'coc-angular',
+      \'coc-pairs'
       \]

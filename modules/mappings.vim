@@ -87,3 +87,6 @@ vnoremap < <gv
 vnoremap > >gv
 " search for visually selected text
 vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
+
+" Spelling
+map <F6> :setlocal spell! spelllang=en_us<CR>

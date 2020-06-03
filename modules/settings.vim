@@ -45,3 +45,6 @@ set shortmess+=c
 set signcolumn=yes
 
 set colorcolumn=80
+
+" Spelling
+" set spelllang="en_us"

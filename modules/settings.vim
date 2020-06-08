@@ -47,5 +47,6 @@ set signcolumn=yes
 
 set colorcolumn=80
 
-" Spelling
-" set spelllang="en_us"
+let g:indentLine_enabled = 1
+let g:indentLine_setColors = 0
+let g:indentLine_fileType = ['html', 'tsx', 'jsx', 'ts', 'js', 'css', 'scss', 'json']

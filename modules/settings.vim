@@ -49,4 +49,4 @@ set colorcolumn=80
 
 let g:indentLine_enabled = 1
 let g:indentLine_setColors = 0
-let g:indentLine_fileType = ['html', 'tsx', 'jsx', 'ts', 'js', 'css', 'scss', 'json']
+let g:indentLine_fileType = ['html', 'typescript.tsx', 'javascript.jsx', 'typescript', 'javascript', 'css', 'scss', 'json']

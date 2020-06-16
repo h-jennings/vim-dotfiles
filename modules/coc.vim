@@ -112,5 +112,6 @@ let g:coc_global_extensions = [
       \'coc-svg',
       \'coc-css',
       \'coc-angular',
-      \'coc-pairs'
+      \'coc-pairs',
+      \'coc-marketplace'
       \]

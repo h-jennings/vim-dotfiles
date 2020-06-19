@@ -27,6 +27,8 @@ Plug 'junegunn/fzf.vim'
 Plug 'justinmk/vim-gtfo'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'Yggdroot/indentLine'
+Plug 'christoomey/vim-tmux-navigator'
+
 
 " typescript syntax
 Plug 'HerringtonDarkholme/yats.vim'

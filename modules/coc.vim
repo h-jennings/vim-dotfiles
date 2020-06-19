@@ -34,7 +34,7 @@ nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 noremap <leader>cr :CocRestart<CR>
 
-" Use K to show documentation in preview window.
+" show documentation in preview window.
 nnoremap <leader>d :call <SID>show_documentation()<CR>
 
 function! s:show_documentation()

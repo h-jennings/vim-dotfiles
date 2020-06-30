@@ -49,6 +49,7 @@ nnoremap <leader>td :set background=dark<CR>
 nnoremap <leader>tl :set background=light<CR>
 nnoremap <leader>ff :Files<CR>
 nnoremap <leader>fw :Rg<Space>
+nmap <leader>A <Plug>CtrlSFCwordPath -W<CR>
 nnoremap <silent> <leader>` :Marks<CR>
 
 nnoremap <C-b> :Buffers<CR>

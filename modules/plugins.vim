@@ -24,6 +24,7 @@ Plug 'sainnhe/forest-night'
 Plug 'ThePrimeagen/vim-be-good'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'edkolev/tmuxline.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'justinmk/vim-gtfo'

@@ -12,6 +12,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-repeat'
+Plug 'tpope/vim-eunuch'
 Plug 'honza/vim-snippets'
 Plug 'chrisbra/Colorizer'
 Plug 'mhinz/vim-startify'
@@ -31,7 +32,6 @@ Plug 'justinmk/vim-gtfo'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'Yggdroot/indentLine'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'terryma/vim-expand-region'
 
 
 " typescript syntax

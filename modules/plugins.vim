@@ -32,7 +32,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'Yggdroot/indentLine'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'terryma/vim-expand-region'
-Plug 'dyng/ctrlsf.vim'
 
 
 " typescript syntax

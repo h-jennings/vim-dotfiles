@@ -32,6 +32,7 @@ Plug 'justinmk/vim-gtfo'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'Yggdroot/indentLine'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'mattn/emmet-vim'
 
 
 " typescript syntax

@@ -13,11 +13,6 @@
     "html"
   ],
   "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/utils/snips"],
-  "emmet.showExpandedAbbreviation": "always",
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "typescript": "html"
-  },
   "yank.highlight.duration": 300,
   "pairs.enableCharacters": ["(", "[", "{", "'", "\"", "`"]
 }

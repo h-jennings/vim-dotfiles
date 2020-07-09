@@ -22,6 +22,8 @@ source $HOME/.config/nvim/modules/vim-gtfo.vim
 source $HOME/.config/nvim/modules/inline-edit.vim
 " Close tag
 source $HOME/.config/nvim/modules/close-tag.vim
+" Emmet Vim
+source $HOME/.config/nvim/modules/emmet-vim.vim
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 

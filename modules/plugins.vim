@@ -35,8 +35,5 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'mattn/emmet-vim'
 
 
-" typescript syntax
-Plug 'HerringtonDarkholme/yats.vim'
-
 " Initialize plugin system
 call plug#end()

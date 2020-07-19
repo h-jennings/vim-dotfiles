@@ -23,7 +23,7 @@ let g:gruvbox_material_enable_italic = 1
 let g:gruvbox_material_cursor = 'yellow'
 let g:gruvbox_material_palette = 'material'
 let g:gruvbox_material_diagnostic_line_highlight = 1
-let g:gruvbox_material_visual = 'blue background'
+let g:gruvbox_material_visual = 'grey background'
 colorscheme gruvbox-material
 
 " Forest Night Theme

@@ -47,3 +47,5 @@ set signcolumn=yes
 
 set colorcolumn=80
 
+" makes the substitute command interactive
+set inccommand=nosplit

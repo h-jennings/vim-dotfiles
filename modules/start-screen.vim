@@ -16,7 +16,7 @@ let g:startify_change_to_dir = 1
 " VCS (if there is one).
 let g:startify_change_to_vcs_root = 1
 
-let g:startify_bookmarks = [ {  'c': '~/Projects/Websites/commonwealth' },{ 'v': '~/.config/nvim' }, ]
+let g:startify_bookmarks = [ {  'c': '~/Projects/Websites/commonwealth' },{ 'v': '~/.config/nvim' }, { 'a': '~/.config/alacritty' }]
 
 let g:startify_fortune_use_unicode = 1
 

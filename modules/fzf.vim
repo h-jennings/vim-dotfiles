@@ -29,3 +29,5 @@ command! -bang -nargs=? -complete=dir Files
   \ call fzf#vim#files(<q-args>,
   \ fzf#vim#with_preview(),
   \ <bang>0)
+let g:fzf_layout = { 'window': { 'width': 0.8, 'height': 0.8 } }
+let $FZF_DEFAULT_OPTS='--reverse'

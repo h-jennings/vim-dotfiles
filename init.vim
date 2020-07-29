@@ -24,6 +24,8 @@ source $HOME/.config/nvim/modules/inline-edit.vim
 source $HOME/.config/nvim/modules/close-tag.vim
 " Emmet Vim
 source $HOME/.config/nvim/modules/emmet-vim.vim
+" Dirvish Vim
+source $HOME/.config/nvim/modules/dirvish.vim
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 

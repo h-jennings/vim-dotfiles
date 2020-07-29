@@ -2,11 +2,9 @@
 " Specify a directory for plugins
 call plug#begin('~/.vim/plugged')
 
-Plug 'scrooloose/nerdtree'
-Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'ryanoasis/vim-devicons'
 Plug 'airblade/vim-gitgutter'
-Plug 'rbong/vim-flog'
+Plug 'junegunn/gv.vim'
+Plug 'justinmk/vim-dirvish'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'

@@ -67,8 +67,8 @@ nnoremap <leader>gs :G<CR>
 nnoremap <leader>gj :diffget //3<CR>
 " Get the git diff on the left 
 nnoremap <leader>gf :diffget //2<CR>
-nmap <leader>b :NERDTreeToggle<CR>
-nmap <leader>F :NERDTreeFind<CR>
+nmap <leader>b :Dirvish<CR>
+nmap <leader>F :Dirvish %<CR>
 " Use alt + hjkl to resize windows
 nnoremap <silent> <C-Right> :vertical resize -3<CR>
 nnoremap <silent> <C-Left> :vertical resize +3<CR>

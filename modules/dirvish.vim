@@ -1,5 +1,5 @@
-" sort folders at the top by default
-let g:dirvish_mode = ':sort ,^.*[\/],'
+" sort folders at the top by default and hide unnecessary files as well
+let g:dirvish_mode = ':sort ,^.*[\/], | :silent keeppatterns g/node_modules\|.git\/\|.DS_Store/d _'
 
 augroup dirvish_config
   " New Folder

@@ -15,6 +15,7 @@ set expandtab
 set incsearch ignorecase smartcase hlsearch
 set wrap breakindent
 set textwidth=80
+set wrapmargin=0
 set noswapfile
 set title
 set encoding=UTF-8

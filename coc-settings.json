@@ -14,5 +14,13 @@
   ],
   "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/utils/snips"],
   "yank.highlight.duration": 300,
-  "pairs.enableCharacters": ["(", "[", "{", "'", "\"", "`"]
+  "pairs.enableCharacters": ["(", "[", "{", "'", "\"", "`"],
+  "eslint.autoFixOnSave": true,
+  "eslint.filetypes": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "eslint.enable": true
 }

@@ -115,5 +115,6 @@ let g:coc_global_extensions = [
       \'coc-css',
       \'coc-angular',
       \'coc-pairs',
-      \'coc-marketplace'
+      \'coc-marketplace',
+      \'coc-eslint'
       \]

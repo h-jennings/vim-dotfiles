@@ -31,3 +31,6 @@ colorscheme gruvbox-material
 " let g:edge_diagnostic_line_highlight = 1
 " let g:edge_better_performance = 1
 " colorscheme edge
+
+"Nightfly
+" colorscheme nightfly

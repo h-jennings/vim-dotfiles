@@ -34,3 +34,9 @@ colorscheme gruvbox-material
 
 "Nightfly
 " colorscheme nightfly
+
+" Miramare
+" let g:miramare_enable_italic = 1
+" let g:airline_theme = 'miramare'
+
+" colorscheme miramare

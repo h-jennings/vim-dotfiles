@@ -48,9 +48,9 @@ nnoremap <leader>O :on<CR>
 nnoremap <leader>td :set background=dark<CR>
 nnoremap <leader>tl :set background=light<CR>
 nnoremap <leader>ff :Files<CR>
-nnoremap <leader>fw :Rg<Space>
+nnoremap <leader>fw :BLines<CR>
+nnoremap <leader>pfw :Rg<Space>
 nnoremap <silent> <leader>` :Marks<CR>
-
 nnoremap <C-b> :Buffers<CR>
 nnoremap <C-g> :BCommits<CR>
 nnoremap <leader>/ :nohlsearch<CR>

@@ -116,5 +116,7 @@ let g:coc_global_extensions = [
       \'coc-angular',
       \'coc-pairs',
       \'coc-marketplace',
-      \'coc-eslint'
       \]
+if isdirectory('./node_modules') && isdirectory('./node_modules/eslint')
+  let g:coc_global_extensions += ['coc-eslint']
+endif

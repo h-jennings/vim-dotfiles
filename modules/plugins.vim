@@ -33,7 +33,7 @@ Plug 'justinmk/vim-gtfo'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'mattn/emmet-vim'
-
+Plug 'junegunn/goyo.vim'
 
 " Initialize plugin system
 call plug#end()

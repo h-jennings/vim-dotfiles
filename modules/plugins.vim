@@ -23,7 +23,7 @@ Plug 'sainnhe/forest-night'
 Plug 'sainnhe/edge'
 Plug 'franbach/miramare'
 Plug 'bluz71/vim-nightfly-guicolors'
-Plug 'ThePrimeagen/vim-be-good'
+" Plug 'ThePrimeagen/vim-be-good'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'edkolev/tmuxline.vim'
@@ -34,6 +34,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'mattn/emmet-vim'
 Plug 'junegunn/goyo.vim'
+Plug 'mbbill/undotree'
 
 " Initialize plugin system
 call plug#end()

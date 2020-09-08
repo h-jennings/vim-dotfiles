@@ -54,6 +54,7 @@ nnoremap <silent> <leader>` :Marks<CR>
 nnoremap <C-b> :Buffers<CR>
 nnoremap <C-g> :BCommits<CR>
 nnoremap <leader>/ :nohlsearch<CR>
+nnoremap <leader>u :UndotreeShow<CR>
 " Better window navigation
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j

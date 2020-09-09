@@ -35,6 +35,7 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'mattn/emmet-vim'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
+Plug 'reedes/vim-pencil'
 Plug 'mbbill/undotree'
 
 " Initialize plugin system

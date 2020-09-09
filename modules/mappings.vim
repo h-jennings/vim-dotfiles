@@ -93,3 +93,4 @@ vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
 
 " Spelling
 map <F6> :setlocal spell! spelllang=en_us<CR>
+nnoremap <leader>go :Goyo<CR>

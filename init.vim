@@ -26,6 +26,8 @@ source $HOME/.config/nvim/modules/close-tag.vim
 source $HOME/.config/nvim/modules/emmet-vim.vim
 " Dirvish Vim
 source $HOME/.config/nvim/modules/dirvish.vim
+" Limelight Vim
+source $HOME/.config/nvim/modules/limelight.vim
 
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 

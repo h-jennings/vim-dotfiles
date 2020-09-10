@@ -36,7 +36,7 @@ nnoremap <leader>[ :tabprev<CR>
 nnoremap <leader>to :tabo<CR>
 
 " Toggle relative line numbers
-nnoremap <leader>rn :set rnu!<cr>
+nnoremap <leader>tn :set rnu!<cr>
 
 " Buffers
 " Switch between buffers using <leader>

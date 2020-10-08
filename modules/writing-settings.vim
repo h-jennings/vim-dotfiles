@@ -5,9 +5,6 @@ function! Prose()
   setlocal nosmartindent
   setlocal indentexpr=
   setlocal spell! spelllang=en_us
-  if !exists('#goyo')
-    Goyo
-  endif
 endfunction
 
 let g:pencil#wrapModeDefault = 'soft'

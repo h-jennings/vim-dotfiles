@@ -35,7 +35,7 @@ nmap <silent> gr <Plug>(coc-references)
 noremap <leader>cr :CocRestart<CR>
 
 " show documentation in preview window.
-nnoremap <leader>d :call <SID>show_documentation()<CR>
+nnoremap <silent> gh :call <SID>show_documentation()<CR>
 
 function! s:show_documentation()
   if (index(['vim','help'], &filetype) >= 0)
@@ -54,9 +54,9 @@ nmap <leader>rn <Plug>(coc-rename)
 " Symbol on a project level.
 nnoremap <leader>prn :CocSearch <C-R>=expand("<cword>")<CR><CR>
 
-" Formatting selected code.
-xmap <leader>f  <Plug>(coc-format-selected)
-nmap <leader>f  <Plug>(coc-format-selected)
+" " Formatting selected code.
+" xmap <leader>f  <Plug>(coc-format-selected)
+" nmap <leader>f  <Plug>(coc-format-selected)
 
 augroup mygroup
   autocmd!
